@@ -43,7 +43,6 @@
   <g filter="url(#shadow)" aria-label="Analytics card">
     <rect x="800" y="64" width="322" height="232" rx="30" fill="url(#card)"/>
     <text x="836" y="112" fill="#0F172A" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="900">Model signal</text>
-    <text x="836" y="140" fill="#475569" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">Wilson 95% precision tracking</text>
 
     <rect x="838" y="247" width="34" height="18" rx="8" fill="#38BDF8"/>
     <rect x="890" y="211" width="34" height="54" rx="8" fill="#F97316"/>
