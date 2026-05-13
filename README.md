@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/readme-banner.svg" alt="Tasty Bytes Recipe Traffic Prediction banner" width="100%" />
+  <img src="assets/readme-banner.svg" alt="Tasty Bytes Recipe Traffic Prediction banner" />
 </p>
 
 <p align="center">
