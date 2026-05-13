@@ -1,0 +1,65 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Food Prediction Model banner</title>
+  <desc id="desc">A colorful banner showing recipe cards, analytics charts, and the title Tasty Bytes Recipe Traffic Prediction.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="0.55" stop-color="#1E3A5F"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#FFF7ED" stop-opacity="0.92"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#020617" flood-opacity="0.28"/>
+    </filter>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2" fill="#FFFFFF" opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="36" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="36" fill="url(#dots)"/>
+  <path d="M0 286C137 236 245 263 362 296C482 330 601 373 746 322C890 272 955 170 1200 208V360H0V286Z" fill="#FFFFFF" opacity="0.12"/>
+  <path d="M0 73C113 112 208 107 336 65C490 14 634 0 764 47C928 106 1035 139 1200 90V0H0V73Z" fill="#38BDF8" opacity="0.12"/>
+
+  <g filter="url(#shadow)">
+    <rect x="78" y="76" width="286" height="214" rx="28" fill="url(#card)"/>
+    <rect x="112" y="112" width="96" height="96" rx="24" fill="#FED7AA"/>
+    <circle cx="160" cy="160" r="34" fill="#FB923C"/>
+    <path d="M145 150C157 137 180 141 183 160C174 183 142 179 137 159C136 156 140 153 145 150Z" fill="#FFF7ED" opacity="0.9"/>
+    <rect x="232" y="118" width="90" height="12" rx="6" fill="#0F172A" opacity="0.72"/>
+    <rect x="232" y="146" width="64" height="10" rx="5" fill="#64748B" opacity="0.55"/>
+    <rect x="232" y="170" width="74" height="10" rx="5" fill="#64748B" opacity="0.38"/>
+    <rect x="112" y="232" width="210" height="14" rx="7" fill="#22C55E" opacity="0.24"/>
+    <rect x="112" y="232" width="154" height="14" rx="7" fill="#22C55E"/>
+    <text x="112" y="270" fill="#334155" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Recipe feature pipeline</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="837" y="76" width="284" height="214" rx="28" fill="#F8FAFC" opacity="0.96"/>
+    <rect x="877" y="226" width="30" height="28" rx="8" fill="#38BDF8"/>
+    <rect x="925" y="184" width="30" height="70" rx="8" fill="#F97316"/>
+    <rect x="973" y="142" width="30" height="112" rx="8" fill="#22C55E"/>
+    <rect x="1021" y="110" width="30" height="144" rx="8" fill="#A78BFA"/>
+    <path d="M878 204C916 199 935 171 974 162C1008 154 1032 126 1079 120" stroke="#0F172A" stroke-width="8" stroke-linecap="round" opacity="0.72"/>
+    <circle cx="1082" cy="119" r="11" fill="#F97316"/>
+    <text x="877" y="122" fill="#0F172A" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="800">Precision-first scoring</text>
+    <text x="877" y="150" fill="#475569" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Wilson 95% confidence</text>
+  </g>
+
+  <g>
+    <text x="416" y="136" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="900" letter-spacing="-1.5">Tasty Bytes</text>
+    <text x="416" y="194" fill="#FFEDD5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="40" font-weight="800" letter-spacing="-0.8">Recipe Traffic Prediction</text>
+    <text x="418" y="238" fill="#E0F2FE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="600">Binary classification notebook for selecting high-traffic homepage recipes</text>
+    <g transform="translate(418 262)">
+      <rect width="136" height="36" rx="18" fill="#FFFFFF" opacity="0.16"/>
+      <text x="20" y="24" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">scikit-learn</text>
+      <rect x="154" width="106" height="36" rx="18" fill="#FFFFFF" opacity="0.16"/>
+      <text x="174" y="24" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">pandas</text>
+      <rect x="278" width="154" height="36" rx="18" fill="#FFFFFF" opacity="0.16"/>
+      <text x="298" y="24" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">Jupyter report</text>
+    </g>
+  </g>
+</svg>
